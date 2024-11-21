@@ -1,0 +1,107 @@
+body {
+
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e9ebee;
+  color: #333;
+}
+
+.header {
+  background-color: #3b5998;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: lowercase;
+}
+
+.login-form {
+  display: flex;
+  align-items: center;
+}
+
+.login-form input {
+  margin: 0 5px;
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+}
+
+.login-form button {
+  background-color: #4267b2;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.login-form a {
+  color: #ddd;
+  font-size: 12px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 20px auto;
+
+}
+
+.left-content {
+  width: 50%;
+  padding: 20px;
+}
+
+.right-content {
+  width: 45%;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.signup-form input, .signup-form select {
+  width: 100%;
+  padding: 5px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.signup-form button {
+  width: 50%;
+  padding: 10px;
+  background-color: #42b72a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signup-form button:hover {
+  background-color: #36a420;
+}
+
+.dob, .gender {
+  margin: 10px 0;
+  display: flex;
+}
+
+.gender label {
+  margin-right: 10px;
+}
+ .premail{
+  display: flex;
+  justify-content: space-between;
+}
